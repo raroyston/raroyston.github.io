@@ -36,12 +36,13 @@
 <div id="footer">
     <p>
 
+    <?php  $thisYear = date('Y');
 
-     <?php  $thisYear = date('Y');
-            
-            echo '&copy ' . $thisYear;
-            
-    ?></p>
+    echo '&copy ' . $thisYear;
+
+    ?>
+
+    </p>
 
 </div>
 </body>
